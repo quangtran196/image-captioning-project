@@ -1,0 +1,23 @@
+name: image-caption
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch=1.10
+  - torchvision
+  - cudatoolkit=11.3
+  - jupyter
+  - matplotlib
+  - pandas
+  - nltk
+  - tqdm
+  - scikit-learn
+  - pillow
+  - pip
+  - pip:
+    - pycocoevalcap
+    - wandb
+    - tensorboard
+    - pycocotools

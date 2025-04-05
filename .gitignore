@@ -1,0 +1,55 @@
+#python
+__pycache__/
+*py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-egg/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*/egg
+
+#Data files
+data/coco/images/
+data/coco/anotations/
+data/processed/
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+wandb/
+
+# Others
+.DS_Store
+src/data/data/coco/val2017.zip
